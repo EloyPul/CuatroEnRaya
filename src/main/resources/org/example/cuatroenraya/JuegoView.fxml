@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10" fx:controller="org.example.cuatroenraya.controllers.JuegoController">
+    <GridPane fx:id="tableroRoot" alignment="CENTER" hgap="5" vgap="5">
+    </GridPane>
+    <Button fx:id="btnVolver" text="Volver al Menú" onAction="#volverAlMenu"/>
+</VBox>
+

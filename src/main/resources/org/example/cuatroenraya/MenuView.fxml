@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21.0.0" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.cuatroenraya.controllers.MenuController" alignment="CENTER" spacing="20" style="-fx-padding: 20;">
+
+    <Button fx:id="btnJugar" text="Iniciar Juego" />
+    <Button fx:id="btnConfiguracion" text="Configuración" />
+    <Button fx:id="btnCreditos" text="Créditos" />
+    <Button fx:id="btnSalir" text="Salir" />
+
+</VBox>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10" fx:controller="org.example.cuatroenraya.controllers.ConfiguracionController">
+    <Label text="Configuración"/>
+    <Button text="Opción 1"/>
+    <Button text="Opción 2"/>
+    <Button fx:id="btnVolver" text="Volver al Menú" onAction="#volverAlMenu"/>
+</VBox>
