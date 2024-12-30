@@ -21,7 +21,7 @@ public class ConfiguracionController {
     @FXML
     private ComboBox<String> ordenSalida; //Orden de salida
     @FXML
-    private Button btnVolver; //Boton para volver al menú principal
+    private Button btnVolver; //Boton para volver al menu principal
 
     @FXML
     public void initialize() {

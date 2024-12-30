@@ -21,7 +21,7 @@ public class JuegoController {
     private GridPane tableroRoot;
 
     @FXML
-    private Button btnVolver;
+    private Button btnVolver; //Boton para volver al menu principal
 
     //Tamaño del tablero
     private static final int FILAS = 6;

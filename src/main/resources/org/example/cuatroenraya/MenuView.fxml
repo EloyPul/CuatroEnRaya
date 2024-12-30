@@ -5,6 +5,7 @@
 <VBox xmlns="http://javafx.com/javafx/21.0.0" xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" spacing="20" style="-fx-padding: 20;" fx:controller="org.example.cuatroenraya.controllers.MenuController">
 
     <Button fx:id="btnJugar" text="Iniciar Juego" />
+    <Button fx:id="btnInstrucciones" text="Instrucciones"/>
     <Button fx:id="btnConfiguracion" text="Configuración" />
     <Button fx:id="btnCreditos" text="Créditos" />
     <Button fx:id="btnSalir" text="Salir" />

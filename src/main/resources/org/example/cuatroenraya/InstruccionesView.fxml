@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10" fx:controller="org.example.cuatroenraya.controllers.InstruccionesController">
+    <Label text="Instrucciones"/>
+    <Label text="1. El objetivo del juego es alinear 4 fichas del mismo color."/>
+    <Label text="2. Las fichas pueden alinearse horizontal, vertical o diagonalmente."/>
+    <Label text="3. Cada jugador coloca una ficha en su turno."/>
+    <Label text="4. Gana el primer jugador que logre el objetivo."/>
+    <Label text="5. Si el tablero se llena y no hay ganador, el juego termina en empate."/>
+    <Button fx:id="btnVolver" text="Volver al Menú" onAction="#volverAlMenu"/>
+</VBox>

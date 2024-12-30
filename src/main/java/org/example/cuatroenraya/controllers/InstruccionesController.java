@@ -7,11 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
-/*
-@author Eloy
- */
-
-public class CreditosController {
+public class InstruccionesController {
 
     @FXML
     private Button btnVolver; //Boton para volver al menu principal
