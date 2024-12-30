@@ -19,7 +19,6 @@ public class JuegoController {
 
     @FXML
     private GridPane tableroRoot;
-
     @FXML
     private Button btnVolver; //Boton para volver al menu principal
 
