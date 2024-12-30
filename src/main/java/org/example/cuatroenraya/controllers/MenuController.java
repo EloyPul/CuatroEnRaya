@@ -7,6 +7,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 
+/*
+@author Eloy
+ */
+
 public class MenuController {
 
     @FXML
@@ -20,10 +24,10 @@ public class MenuController {
 
     @FXML
     public void initialize() {
-        btnJugar.setOnAction(e -> cargarVista("/org/example/cuatroenraya/JuegoView.fxml"));
-        btnConfiguracion.setOnAction(e -> cargarVista("/org/example/cuatroenraya/ConfiguracionView.fxml"));
-        btnCreditos.setOnAction(e -> cargarVista("/org/example/cuatroenraya/CreditosView.fxml"));
-        btnSalir.setOnAction(e -> ((Stage) btnSalir.getScene().getWindow()).close());
+        btnJugar.setOnAction(e -> cargarVista("/org/example/cuatroenraya/JuegoView.fxml")); //Carga del juego
+        btnConfiguracion.setOnAction(e -> cargarVista("/org/example/cuatroenraya/ConfiguracionView.fxml")); //Carga de la configuracion, no funciona solo visual
+        btnCreditos.setOnAction(e -> cargarVista("/org/example/cuatroenraya/CreditosView.fxml"));//Carga creditos
+        btnSalir.setOnAction(e -> ((Stage) btnSalir.getScene().getWindow()).close()); //Boton Salir
     }
 
     private void cargarVista(String rutaFXML) {

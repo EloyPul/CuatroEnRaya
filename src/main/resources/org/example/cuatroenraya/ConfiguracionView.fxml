@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.VBox?>
 
 <VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10" fx:controller="org.example.cuatroenraya.controllers.ConfiguracionController">
-    <Label text="Configuración"/>
-    <Button text="Opción 1"/>
-    <Button text="Opción 2"/>
+    <Label text="Configuración de Juego"/>
+    <Label text="Color del Jugador 1"/>
+    <ComboBox fx:id="colorJugador1" />
+    <Label text="Color del Jugador 2"/>
+    <ComboBox fx:id="colorJugador2" />
+    <Label text="Orden de salida"/>
+    <ComboBox fx:id="ordenSalida" />
     <Button fx:id="btnVolver" text="Volver al Menú" onAction="#volverAlMenu"/>
 </VBox>
